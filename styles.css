@@ -1,0 +1,16 @@
+body{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content{
+    background: hsl(210, 20%, 96%);
+}
+
+.attribution {
+     font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

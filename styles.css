@@ -1,10 +1,78 @@
 body{
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
+    background: hsl(210, 20%, 96%);
+
 }
 
 .content{
-    background: hsl(210, 20%, 96%);
+    max-width: 340px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: hsla(210, 6%, 44%, 0.027);
+    border-radius: 15px;
+}
+
+.main{
+    color: hsl(234, 12%, 34%);
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.sub{
+    margin-top: 0;
+}
+
+.desc{
+    padding-left: 1rem;
+    text-indent: -1rem;
+    color: hsl(234, 12%, 34%);
+}
+
+h2{
+    margin: 0.4rem;
+}
+
+.card{
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img{
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: auto; 
+    height: auto;
+}
+.card p{
+    margin: 0 0 5rem 0;
+    font-size: 0.8rem;
+    color: hsl(212, 6%, 44%);
+    font-weight: 400;
+}
+
+.firstCard{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.secondCard{
+    border-top: 5px solid hsl(0, 78%, 62%);
+
+}
+
+.thirdCard{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.fourthCard{
+    border-top: 5px solid hsl(212, 86%, 64%);
 }
 
 .attribution {
